@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&display=swap");
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 9rem;
+  padding: 0 5rem 0 3.5rem;
+
+  background-color: #da8d1a;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  font-family: "Bebas Neue", cursive;
+  font-size: 65px;
+}
+
+.middle-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 1.5rem;
+  gap: 1rem;
+}
+
+.search-header {
+  width: 100%;
+}
+
+.search-header input {
+  width: inherit;
+  height: 2rem;
+  padding: 0 0.5rem;
+
+  border: transparent;
+  border-radius: 4px;
+  background-color: #ac6f13;
+  color: #fff;
+  font-size: 16px;
+}
+
+.butoes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.butoes-header :nth-child(4) {
+  font-weight: 400;
+}
+
+.butoes-header div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.butoes-header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.carrinho-header {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 2rem;
+
+  font-size: 22px;
+  font-weight: 500;
+}
