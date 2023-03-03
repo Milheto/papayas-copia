@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&display=swap");
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-carousel {
+  margin: 2rem 5.5rem 0 5.5rem;
+  overflow: hidden;
+  width: 700px;
+}
+
+.carousel-cell {
+  display: block;
+  width: 700px;
+  height: 340px;
+}
+
+.carousel-cell img {
+  height: inherit;
+  width: inherit;
+}
+
+.flickity-button {
+  height: 150px !important;
+  background-color: #da8d1a !important;
+}
+
+.flickity-button:hover {
+  background-color: #945a03 !important;
+}
+
+.flickity-prev-next-button.previous {
+  left: 0 !important;
+  border-radius: 0 15px 15px 0 !important;
+}
+
+.flickity-prev-next-button.next {
+  right: 0 !important;
+  border-radius: 15px 0px 0 15px !important;
+}
+
+.flickity-button:disabled {
+  display: none;
+}
+
+.flickity-button-icon {
+  fill: white !important;
+}
+
+.flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+}
+
+.main-destaque {
+  display: flex;
+  flex-direction: column;
+
+  margin: 3.5rem 3.5rem 0 3.5rem;
+}
+
+.main-destaque-top {
+  font-family: "Montserrat", cursive;
+  font-size: 30px;
+  font-weight: 500;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-destaque-top-button {
+  border: solid #000 0.5px;
+  border-radius: 30px;
+}
+
+.main-destaque-top-button button {
+  border: transparent;
+  background: none;
+}
+
+.button-left {
+  transform: rotate(180deg);
+}
